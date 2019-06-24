@@ -15,6 +15,7 @@ def square_array(array)
 
   while l < array.length do
     new_numbers.push(array[l] ** 2)
+    l += 1
   end
   return new_numbers
 end
